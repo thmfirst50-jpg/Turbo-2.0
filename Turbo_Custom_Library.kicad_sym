@@ -56,10 +56,10 @@
 				(end 5.08 -5.08)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
-					(type none)
+					(type background)
 				)
 			)
 			(text "BNO085 IMU"
@@ -336,20 +336,18 @@
 				(hide yes)
 			)
 		)
-		(symbol "Battery_0_1"
+		(symbol "Battery_1_1"
 			(rectangle
 				(start -3.81 2.54)
 				(end 3.81 -2.54)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
-					(type none)
+					(type background)
 				)
 			)
-		)
-		(symbol "Battery_1_1"
 			(text "BatteryPins"
 				(at 0.254 4.064 0)
 				(effects
@@ -445,20 +443,18 @@
 				(hide yes)
 			)
 		)
-		(symbol "DRV8833_Motor_Driver_0_1"
+		(symbol "DRV8833_Motor_Driver_1_1"
 			(rectangle
 				(start -6.35 16.51)
 				(end 6.35 1.27)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
-					(type none)
+					(type background)
 				)
 			)
-		)
-		(symbol "DRV8833_Motor_Driver_1_1"
 			(text "DRV8833 Motor Driver"
 				(at 0.762 -0.508 0)
 				(effects
@@ -746,6 +742,8 @@
 					(type none)
 				)
 			)
+		)
+		(symbol "ESP32S3_Mini_Zero_1_1"
 			(polyline
 				(pts
 					(xy 2.54 22.86) (xy 7.62 22.86) (xy 7.62 0) (xy -7.62 0) (xy -7.62 22.86) (xy -2.54 22.86) (xy -2.54 24.13)
@@ -753,14 +751,12 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
-					(type none)
+					(type background)
 				)
 			)
-		)
-		(symbol "ESP32S3_Mini_Zero_1_1"
 			(text "ESP32S3 Mini Zero"
 				(at 0.254 -1.778 0)
 				(effects
@@ -1144,20 +1140,18 @@
 				(hide yes)
 			)
 		)
-		(symbol "MotorPin6_0_1"
+		(symbol "MotorPin6_1_1"
 			(rectangle
 				(start -2.54 15.24)
 				(end 2.54 -2.54)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
-					(type none)
+					(type background)
 				)
 			)
-		)
-		(symbol "MotorPin6_1_1"
 			(text "Motor PINS 6"
 				(at 0 -4.318 0)
 				(effects
@@ -1331,10 +1325,10 @@
 				(end 0 8.89)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
-					(type none)
+					(type background)
 				)
 			)
 			(text "Step down"
@@ -1467,16 +1461,16 @@
 				(hide yes)
 			)
 		)
-		(symbol "Switch_0_1"
+		(symbol "Switch_1_1"
 			(rectangle
-				(start -6.35 -1.27)
+				(start -5.08 -1.27)
 				(end 5.08 -5.08)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
-					(type none)
+					(type background)
 				)
 			)
 			(rectangle
@@ -1484,14 +1478,12 @@
 				(end 1.27 -1.27)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
-					(type none)
+					(type background)
 				)
 			)
-		)
-		(symbol "Switch_1_1"
 			(text "Switch"
 				(at -0.254 3.302 0)
 				(effects
