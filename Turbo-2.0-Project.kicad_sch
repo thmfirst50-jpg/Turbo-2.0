@@ -1629,7 +1629,7 @@
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "turbo_custom_footprints:DRV8833_Motor_Driver"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1686,7 +1686,7 @@
 							)
 						)
 					)
-					(number ""
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1704,7 +1704,7 @@
 							)
 						)
 					)
-					(number ""
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1722,7 +1722,7 @@
 							)
 						)
 					)
-					(number ""
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1740,7 +1740,7 @@
 							)
 						)
 					)
-					(number ""
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1758,7 +1758,7 @@
 							)
 						)
 					)
-					(number ""
+					(number "5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1776,7 +1776,7 @@
 							)
 						)
 					)
-					(number ""
+					(number "6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1794,7 +1794,7 @@
 							)
 						)
 					)
-					(number ""
+					(number "12"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1812,7 +1812,7 @@
 							)
 						)
 					)
-					(number ""
+					(number "11"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1830,7 +1830,7 @@
 							)
 						)
 					)
-					(number ""
+					(number "10"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1848,7 +1848,7 @@
 							)
 						)
 					)
-					(number ""
+					(number "9"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1866,7 +1866,7 @@
 							)
 						)
 					)
-					(number ""
+					(number "8"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1884,7 +1884,7 @@
 							)
 						)
 					)
-					(number ""
+					(number "7"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1916,7 +1916,7 @@
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "turbo_custom_footprints:ESP32S3_Mini_Zero"
 				(at 0 0 0)
 				(effects
 					(font
@@ -5602,7 +5602,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "turbo_custom_footprints:ESP32S3_Mini_Zero"
 			(at 44.45 53.34 0)
 			(effects
 				(font
@@ -5976,6 +5976,7 @@
 		)
 	)
 	(symbol
+		(lib_name "MotorPin6_1")
 		(lib_id "Turbo_Custom_Library:MotorPin6")
 		(at 231.14 68.58 0)
 		(unit 1)
@@ -6259,7 +6260,6 @@
 		)
 	)
 	(symbol
-		(lib_name "MotorPin6_1")
 		(lib_id "Turbo_Custom_Library:MotorPin6")
 		(at 262.89 68.58 0)
 		(unit 1)
@@ -7401,7 +7401,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "turbo_custom_footprints:DRV8833_Motor_Driver"
 			(at 240.03 44.45 0)
 			(effects
 				(font
@@ -7428,40 +7428,40 @@
 				(hide yes)
 			)
 		)
-		(pin ""
+		(pin "7"
 			(uuid "8332b077-e7b6-4bfb-be2d-870d393bce38")
 		)
-		(pin ""
+		(pin "6"
 			(uuid "11a466fa-9ee7-4e41-bf28-fced1bda85e6")
 		)
-		(pin ""
+		(pin "3"
 			(uuid "314c850b-4e2f-40fd-9ae1-8a9565e71659")
 		)
-		(pin ""
+		(pin "2"
 			(uuid "c3fcad1e-973d-4fb8-b360-7fbf2a6e89bc")
 		)
-		(pin ""
+		(pin "5"
 			(uuid "41f2c5a2-b67f-4703-b547-c87311d3ab57")
 		)
-		(pin ""
+		(pin "10"
 			(uuid "a43be46d-363e-425f-9740-f620e8f96ac4")
 		)
-		(pin ""
+		(pin "9"
 			(uuid "7f44b982-2ee8-4774-a0e4-70624726563b")
 		)
-		(pin ""
+		(pin "1"
 			(uuid "b84e92e2-39fe-4ef1-850f-5da88323eb12")
 		)
-		(pin ""
+		(pin "4"
 			(uuid "63730bdf-b1e0-46b7-bd1d-1cbab1d18e49")
 		)
-		(pin ""
+		(pin "12"
 			(uuid "6f6b107d-b8ac-4ddb-8909-1eb1880488c7")
 		)
-		(pin ""
+		(pin "11"
 			(uuid "39941604-dfe7-4750-bcc3-a442f4b96a06")
 		)
-		(pin ""
+		(pin "8"
 			(uuid "0a06e1b4-d416-474b-904a-daf52ac3e274")
 		)
 		(instances
